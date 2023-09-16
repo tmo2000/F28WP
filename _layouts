@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ page.title }}</title>
+<title>{{ Web Programming }}</title>
 <!-- link to main stylesheet -->
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
@@ -13,7 +13,9 @@
 </ul>
 </nav>
 <div class="container">
+
 {{ content }}
+
 </div>
 <footer>
 <ul>
