@@ -11,14 +11,10 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #7676c7, #000);
-    color: #fff;
+    background-color:#ffffff;
+    color: #0000;
     text-align: center;
-    padding: 20px;
-}
-
-.headeraH1 {
-    margin: 0;
+    padding: 10px;
 }
 
 .banner {
@@ -35,9 +31,9 @@ header {
 
 /* Navigation Styles */
 nav ul {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
     list-style-type: none;
     margin: 0;
     padding: 20px;
@@ -45,18 +41,14 @@ nav ul {
 
 nav li {
     display: inline-block;
-}
-
-nav a {
-    display: block;
-    color: #fff;
-    text-align: center;
+    color: #000000;
+    text-align: left;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: black;
     transition: background-color 0.3s;  /* Smooth transition for hover effect */
 }
 
-nav a:hover {
+nav li:hover {
     background-color: #505050;  /* Darker shade for hover */
 }
 
