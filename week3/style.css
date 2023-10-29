@@ -11,7 +11,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #1a1a74, #000);
+    background: linear-gradient(120deg, #1a1a74, #c7c7c7);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -263,13 +263,13 @@ footer p {
 /* Style for the form: setting width, auto margin for centering, padding, 
 background color, border radius for rounded corners, and font size */
 #form {
-    width: 300px;
-    margin: 20vh auto 0 auto; /* This centers the form vertically and 
+    width: 500px;
+    margin: 10vh auto 0 auto; /* This centers the form vertically and 
     horizontally */
     padding: 20px;
     background-color: whitesmoke; /* Light gray background for the form */
     border-radius: 4px; /* Rounded corners for the form */
-    font-size: 12px;
+    font-size: 13px;
     }
     /* Style for the form's heading: setting the text color and alignment */
     h1 {
