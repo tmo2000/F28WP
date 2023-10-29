@@ -272,7 +272,7 @@ background color, border radius for rounded corners, and font size */
     font-size: 12px;
     }
     /* Style for the form's heading: setting the text color and alignment */
-    #form h1 {
+    h1 {
     color: #0f2027; /* Dark text color for the heading */
     text-align: center; /* Center-align the heading */
     }
