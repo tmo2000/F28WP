@@ -13,10 +13,30 @@ btn.addEventListener("click", function(){
 })
 
 function renderHTML(data){
-    var htmlString = "this is a test";
+    var htmlString = "";
 
     for (i=0; i<data.length; i++){
-        htmlString += "<p>" + data[i].name + "is a city in" + data[i].country + ".</p>";
-    }
-    cityContainer.insertAdjacentHTML('beforeend' , htmlString);
-    }
+        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country +  
+       " Where you can enjoy indoor places like: " ;
+        for (ii = 0; ii < data[i].places.indoor.length; ii++) {
+        // Loop through the indoor places of the current city.
+        if (ii == 0) {
+        htmlString += data[i].places.indoor[ii];
+        } else {
+        htmlString += ", and " + data[i].places.indoor[ii];
+        }
+        }
+        htmlString += '. & enjoy outdoor places like: ';
+        // Loop through the outdoor places of the current city.
+        for (ii = 0; ii < data[i].places.outdoor.length; ii++) {
+        if (ii == 0) {
+        htmlString += data[i].places.outdoor[ii];
+        } else {
+        htmlString += " and " + data[i].places.outdoor[ii];
+        }
+        }
+        htmlString += '.</p>';
+        }
+        cityContainer.insertAdjacentHTML('beforeend' , htmlString);
+        }
+        
